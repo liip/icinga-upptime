@@ -12,3 +12,5 @@ sites:
   - name: Icinga IPv6
     ipv6: true
     url: https://icinga.liip.ch/
+    expectedStatusCodes:
+      - 403 # It's access is restricted 
