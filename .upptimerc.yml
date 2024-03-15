@@ -8,9 +8,9 @@ sites:
   - name: Icinga
     url: https://icinga.liip.ch
     expectedStatusCodes:
-      - 403 # It's access is restricted 
+      - 401 # Unauthorized
   - name: Icinga IPv6
     ipv6: true
     url: https://icinga.liip.ch/
     expectedStatusCodes:
-      - 403 # It's access is restricted 
+      - 401 # Unauthorized
