@@ -4,7 +4,10 @@ repo: icinga-upptime
 sites:
   - name: Icinga
     url: https://icinga.liip.ch
+    expectedStatusCodes:
+      - 403 # It's access is restricted 
   - name: Icinga IPv6
-    url: https://icinga.liip.ch/
-    check: "tcp-ping"
     ipv6: true
+    url: https://icinga.liip.ch/
+    expectedStatusCodes:
+      - 403 # It's access is restricted 
