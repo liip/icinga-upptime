@@ -5,19 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/icinga.liip.ch.ico",
     "slug": "icinga",
     "status": "up",
-    "uptime": "2.57%",
-    "uptimeDay": "2.57%",
-    "uptimeWeek": "2.57%",
-    "uptimeMonth": "2.57%",
-    "uptimeYear": "2.57%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 890,
     "timeDay": 890,
     "timeWeek": 890,
     "timeMonth": 890,
     "timeYear": 890,
-    "dailyMinutesDown": {
-      "2024-03-15": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Icinga IPv6",
@@ -25,18 +23,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/icinga.liip.ch.ico",
     "slug": "icinga-i-pv6",
     "status": "up",
-    "uptime": "1.34%",
-    "uptimeDay": "1.34%",
-    "uptimeWeek": "1.34%",
-    "uptimeMonth": "1.34%",
-    "uptimeYear": "1.34%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 427,
     "timeDay": 427,
     "timeWeek": 427,
     "timeMonth": 427,
     "timeYear": 427,
-    "dailyMinutesDown": {
-      "2024-03-15": 5
-    }
+    "dailyMinutesDown": {}
   }
 ]
