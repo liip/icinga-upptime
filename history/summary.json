@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.84%",
     "uptimeYear": "99.84%",
-    "time": 1298,
-    "timeDay": 1088,
-    "timeWeek": 1150,
-    "timeMonth": 1298,
-    "timeYear": 1298,
+    "time": 1307,
+    "timeDay": 1590,
+    "timeWeek": 1233,
+    "timeMonth": 1307,
+    "timeYear": 1307,
     "dailyMinutesDown": {
       "2024-03-15": 53
     }
@@ -25,16 +25,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/icinga.liip.ch.ico",
     "slug": "icinga-i-pv6",
     "status": "up",
-    "uptime": "99.83%",
+    "uptime": "99.84%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.83%",
-    "uptimeYear": "99.83%",
-    "time": 310,
-    "timeDay": 283,
-    "timeWeek": 271,
-    "timeMonth": 310,
-    "timeYear": 310,
+    "uptimeMonth": "99.84%",
+    "uptimeYear": "99.84%",
+    "time": 309,
+    "timeDay": 286,
+    "timeWeek": 270,
+    "timeMonth": 309,
+    "timeYear": 309,
     "dailyMinutesDown": {
       "2024-03-15": 53
     }
