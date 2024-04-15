@@ -6,7 +6,7 @@ assignees:
 
 sites:
   - name: Icinga
-    url: https://icinga.liip.ch
+    url: https://icinga.liip.ch/.well-known/apache-healthz
   - name: Icinga IPv6
     ipv6: true
-    url: https://icinga.liip.ch/
+    url: https://icinga.liip.ch/.well-known/apache-healthz
