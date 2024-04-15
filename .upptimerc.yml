@@ -10,3 +10,7 @@ sites:
   - name: Icinga IPv6
     ipv6: true
     url: https://icinga.liip.ch/.well-known/apache-healthz
+
+status-website:
+  cname: upptime.icinga.liip.ch
+  name: Icinga Upptime
