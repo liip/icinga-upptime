@@ -4,9 +4,9 @@
     "url": "https://icinga.liip.ch/.well-known/apache-healthz",
     "icon": "https://icons.duckduckgo.com/ip3/icinga.liip.ch.ico",
     "slug": "icinga",
-    "status": "up",
+    "status": "down",
     "uptime": "99.95%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.95%",
@@ -16,6 +16,7 @@
     "timeMonth": 679,
     "timeYear": 674,
     "dailyMinutesDown": {
+      "2025-01-24": 0,
       "2024-04-12": 179,
       "2024-03-15": 53
     }
@@ -25,9 +26,9 @@
     "url": "https://icinga.liip.ch/.well-known/apache-healthz",
     "icon": "https://icons.duckduckgo.com/ip3/icinga.liip.ch.ico",
     "slug": "icinga-i-pv6",
-    "status": "up",
+    "status": "down",
     "uptime": "99.95%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.95%",
@@ -37,6 +38,7 @@
     "timeMonth": 118,
     "timeYear": 141,
     "dailyMinutesDown": {
+      "2025-01-24": 0,
       "2024-04-12": 178,
       "2024-03-15": 53
     }
