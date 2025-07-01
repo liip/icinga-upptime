@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/icinga.liip.ch.ico",
     "slug": "icinga",
     "status": "up",
-    "uptime": "99.96%",
+    "uptime": "99.97%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 673,
-    "timeDay": 354,
-    "timeWeek": 566,
-    "timeMonth": 613,
-    "timeYear": 618,
+    "timeDay": 641,
+    "timeWeek": 572,
+    "timeMonth": 610,
+    "timeYear": 619,
     "dailyMinutesDown": {
       "2025-01-24": 5
     }
@@ -31,9 +31,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 133,
-    "timeDay": 91,
-    "timeWeek": 110,
-    "timeMonth": 116,
+    "timeDay": 111,
+    "timeWeek": 113,
+    "timeMonth": 117,
     "timeYear": 116,
     "dailyMinutesDown": {}
   }
