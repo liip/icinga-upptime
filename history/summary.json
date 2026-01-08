@@ -4,19 +4,19 @@
     "url": "https://icinga.liip.ch/.well-known/apache-healthz",
     "icon": "https://icons.duckduckgo.com/ip3/icinga.liip.ch.ico",
     "slug": "icinga",
-    "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "99.36%",
+    "uptimeWeek": "99.91%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
-    "time": 670,
-    "timeDay": 1042,
-    "timeWeek": 755,
-    "timeMonth": 817,
+    "time": 671,
+    "timeDay": 1010,
+    "timeWeek": 783,
+    "timeMonth": 822,
     "timeYear": 702,
     "dailyMinutesDown": {
-      "2026-01-08": 1,
+      "2026-01-08": 9,
       "2025-01-24": 5
     }
   },
@@ -25,19 +25,19 @@
     "url": "https://icinga.liip.ch/.well-known/apache-healthz",
     "icon": "https://icons.duckduckgo.com/ip3/icinga.liip.ch.ico",
     "slug": "icinga-i-pv6",
-    "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "99.39%",
+    "uptimeWeek": "99.91%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 116,
-    "timeDay": 148,
-    "timeWeek": 110,
-    "timeMonth": 117,
+    "timeDay": 143,
+    "timeWeek": 113,
+    "timeMonth": 118,
     "timeYear": 116,
     "dailyMinutesDown": {
-      "2026-01-08": 0
+      "2026-01-08": 9
     }
   }
 ]
