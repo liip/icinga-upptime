@@ -5,18 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/icinga.liip.ch.ico",
     "slug": "icinga",
     "status": "up",
-    "uptime": "99.97%",
-    "uptimeDay": "99.36%",
-    "uptimeWeek": "99.91%",
-    "uptimeMonth": "99.98%",
+    "uptime": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 671,
-    "timeDay": 1010,
-    "timeWeek": 783,
-    "timeMonth": 822,
-    "timeYear": 702,
+    "timeDay": 901,
+    "timeWeek": 793,
+    "timeMonth": 821,
+    "timeYear": 703,
     "dailyMinutesDown": {
-      "2026-01-08": 9,
       "2025-01-24": 5
     }
   },
@@ -26,18 +25,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/icinga.liip.ch.ico",
     "slug": "icinga-i-pv6",
     "status": "up",
-    "uptime": "99.97%",
-    "uptimeDay": "99.39%",
-    "uptimeWeek": "99.91%",
-    "uptimeMonth": "99.98%",
+    "uptime": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 116,
-    "timeDay": 143,
-    "timeWeek": 113,
+    "timeDay": 141,
+    "timeWeek": 119,
     "timeMonth": 118,
     "timeYear": 116,
-    "dailyMinutesDown": {
-      "2026-01-08": 9
-    }
+    "dailyMinutesDown": {}
   }
 ]
