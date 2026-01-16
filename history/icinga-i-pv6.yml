@@ -1,7 +1,7 @@
 url: https://icinga.liip.ch/.well-known/apache-healthz
 status: up
 code: 200
-responseTime: 92
-lastUpdated: 2026-01-15T23:07:32.353Z
+responseTime: 88
+lastUpdated: 2026-01-16T23:07:17.766Z
 startTime: 2024-03-15T12:15:09.514Z
 generator: Upptime <https://github.com/upptime/upptime>
