@@ -11,13 +11,11 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 677,
-    "timeDay": 750,
-    "timeWeek": 728,
-    "timeMonth": 804,
-    "timeYear": 708,
-    "dailyMinutesDown": {
-      "2025-01-24": 5
-    }
+    "timeDay": 574,
+    "timeWeek": 716,
+    "timeMonth": 797,
+    "timeYear": 707,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Icinga IPv6",
@@ -31,8 +29,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 116,
-    "timeDay": 121,
-    "timeWeek": 108,
+    "timeDay": 94,
+    "timeWeek": 109,
     "timeMonth": 110,
     "timeYear": 116,
     "dailyMinutesDown": {}
