@@ -21,18 +21,26 @@ on:
   repository_dispatch:
     types: [update_template]
   workflow_dispatch:
+
+concurrency:
+  group: global
+  cancel-in-progress: true
+
 jobs:
   release:
     name: Build
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # upptime writes the result into the repository
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
+          persist-credentials: false
       - name: Update template
-        uses: upptime/uptime-monitor@master
+        uses: upptime/uptime-monitor@38f9e8b4befb9b7c3fbbe6be55632008cc5788ef # master
         with:
           command: "update-template"
         env:
