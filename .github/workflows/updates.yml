@@ -26,8 +26,11 @@ concurrency:
   group: global
   cancel-in-progress: true
 
+permissions: {}
+
 jobs:
   release:
+    environment: upptime
     name: Deploy updates
     runs-on: ubuntu-latest
     permissions:
@@ -40,6 +43,10 @@ jobs:
           token: ${{ secrets.GH_PAT || github.token }}
           persist-credentials: false
       - name: Update code
+        # zizmor complains that this commit is not associated with a tag.
+        # however, updates has only the tag 1.0.1 from 2020, and 90+ commits to master after that tag.
+        # https://github.com/upptime/updates/releases/tag/v1.0.1
+        # we should keep this as is to get the current state.
         uses: upptime/updates@c8be3a2281e37dfb3211b7cd8f847b014e551634 # master
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}

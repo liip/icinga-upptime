@@ -13,11 +13,14 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+permissions: {}
+
 jobs:
   zizmor:
     name: Run zizmor 🌈
     runs-on: ubuntu-latest
     permissions:
+      contents: read # necessary to scan the repository for security issues
       security-events: write # required to upload results to advanced security
     steps:
       - name: Checkout repository

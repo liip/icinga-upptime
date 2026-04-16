@@ -26,8 +26,11 @@ concurrency:
   group: global
   cancel-in-progress: true
 
+permissions: {}
+
 jobs:
   release:
+    environment: upptime
     name: Generate README
     runs-on: ubuntu-latest
     permissions:
