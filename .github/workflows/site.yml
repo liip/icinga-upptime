@@ -26,8 +26,11 @@ concurrency:
   group: global
   cancel-in-progress: true
 
+permissions: {}
+
 jobs:
   release:
+    environment: upptime
     name: Build and deploy site
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, '[skip ci]')"

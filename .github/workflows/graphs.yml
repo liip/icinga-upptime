@@ -26,8 +26,11 @@ concurrency:
   group: global
   cancel-in-progress: true
 
+permissions: {}
+
 jobs:
   release:
+    environment: upptime
     name: Generate graphs
     runs-on: ubuntu-latest
     permissions:

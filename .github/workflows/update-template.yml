@@ -26,8 +26,11 @@ concurrency:
   group: global
   cancel-in-progress: true
 
+permissions: {}
+
 jobs:
   release:
+    environment: upptime
     name: Build
     runs-on: ubuntu-latest
     permissions:
@@ -40,7 +43,7 @@ jobs:
           token: ${{ secrets.GH_PAT || github.token }}
           persist-credentials: false
       - name: Update template
-        uses: upptime/uptime-monitor@38f9e8b4befb9b7c3fbbe6be55632008cc5788ef # master
+        uses: upptime/uptime-monitor@e620a0d7a97526a295bbe3970495bff6495bdf27 # v1.41.0
         with:
           command: "update-template"
         env:
